@@ -55,6 +55,8 @@
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/react-native-sms-linking.svg)](https://greenkeeper.io/)
+
 ```sh
 $ npm install react-native-sms-linking
 # OR
