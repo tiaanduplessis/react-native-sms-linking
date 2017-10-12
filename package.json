@@ -1,0 +1,25 @@
+{
+    "name": "react-native-sms-linking",
+    "version": "1.0.0",
+    "description": "Simple Linking API wrapper to send SMS",
+    "license": "MIT",
+    "repository": {
+        "url": "https://github.com/tiaanduplessis/react-native-sms-linking",
+        "type": "git"
+    },
+    "homepage": "https://github.com/tiaanduplessis/react-native-sms-linking",
+    "bugs": "https://github.com/tiaanduplessis/react-native-sms-linking",
+    "main": "index.js",
+    "files": ["index.js"],
+    "scripts": {
+        "test": "npm run format",
+        "format": "prettier-standard index.js",
+        "start": "npm run test",
+        "precommit": "npm test"
+    },
+    "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
+    "devDependencies": {
+        "husky": "^0.14.3",
+        "prettier-standard": "^6.0.0"
+    }
+}
