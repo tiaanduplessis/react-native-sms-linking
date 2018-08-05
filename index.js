@@ -1,3 +1,5 @@
+import { Platform, Linking } from 'react-native'
+
 function assert (condition, message) {
   if (!condition) {
     throw new Error(message)
@@ -18,10 +20,10 @@ function sms (phone = '', body = '') {
   assert(typeof phone === 'string', 'Phone number should be a string')
   assert(typeof body === 'string', 'Body should be a string')
 
-  const sep = Platform.os === 'ios' ? '&' : '?'
-  const url = `sms:${phone}${body
-    ? sep + 'body=' + encodeURIComponent(body)
-    : ''}`
+  const sep = Platform.OS === 'ios' ? '&' : '?'
+  const url = `sms:${phone}${
+    body ? sep + 'body=' + encodeURIComponent(body) : ''
+  }`
 
   return launchURL(url)
 }
