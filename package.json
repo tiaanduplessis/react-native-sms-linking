@@ -11,15 +11,16 @@
     "bugs": "https://github.com/tiaanduplessis/react-native-sms-linking",
     "main": "index.js",
     "files": [
-        "index.js"
+        "index.js",
+        "yarn.lock"
     ],
     "scripts": {
         "test": "npm run format",
-        "format": "prettier-standard index.js"
+        "lint": "nitpick"
     },
     "author": "Tiaan du Plessis",
     "devDependencies": {
-        "prettier-standard": "^8.0.1"
+        "nitpicky-cli": "^1.0.0"
     },
     "peerDependencies": {
         "react": "*",

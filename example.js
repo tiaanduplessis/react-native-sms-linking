@@ -1,4 +1,4 @@
-import sms from 'react-native-sms-linking'
+import sms from 'react-native-sms-linking' // eslint-disable-line
 
 sms().catch(console.error)
 
