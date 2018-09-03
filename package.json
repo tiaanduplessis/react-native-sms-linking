@@ -1,6 +1,6 @@
 {
     "name": "react-native-sms-linking",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Simple Linking API wrapper to send SMS",
     "license": "MIT",
     "repository": {
