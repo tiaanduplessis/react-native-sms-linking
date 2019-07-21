@@ -920,7 +920,7 @@ nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
 
-nitpicky-cli@^1.0.0:
+nitpicky-cli@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/nitpicky-cli/-/nitpicky-cli-1.0.0.tgz#ce5cf2365c6b6117d41e2f4f73c6050e257619e1"
   dependencies:

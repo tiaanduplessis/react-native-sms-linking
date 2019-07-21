@@ -20,7 +20,7 @@
     },
     "author": "Tiaan du Plessis",
     "devDependencies": {
-        "nitpicky-cli": "^1.0.0"
+        "nitpicky-cli": "1.0.0"
     },
     "peerDependencies": {
         "react": "*",
